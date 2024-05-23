@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+body {
+  height: 100vh;
+  text-align: center;
+  height: 100px;
+  align-content: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+.title {
+  border: solid rgb(104, 102, 102);
+  border-bottom: none;
+  background-color: rgba(15, 148, 86, 0.615);
+  padding: 30px;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+.title h1 {
+  font-size: 30px;
+  width: 100%;
+  color: rgba(17, 16, 16, 0.875);
+  font-weight: 550;
+}
+.grade-calculator-app {
+  margin-right: 20%;
+  margin-left: 20%;
+  border: solid rgb(29, 29, 29);
+  padding-bottom: 50px;
+  padding-top: 20px;
+  background-color: rgba(233, 230, 230, 0.899);
+  display: grid;
+}
+.grade-calculator-app .item {
+  font-size: 18px;
+  padding: 10px;
+}
+.grade-calculator-app label {
+  padding: 15px;
+  width: 100%;
+  color: rgb(55, 54, 54);
+  font-weight: 500;
+}
+#txtMarks {
+  padding: 15px;
+  border-radius: 10px;
+  border: solid gray;
+  width: 180px;
+  font-size: large;
+}
+#btn {
+  height: 40px;
+  width: 150px;
+  font-size: 17px;
+  font-weight: 550;
+  background-color: rgba(129, 127, 127, 0.232);
+  border: solid gray;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#btn:hover {
+  background-color: rgba(15, 148, 86, 0.193);
+}
+.grade-output {
+  /* border: solid blue; */
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10px;
+  justify-content: center;
+  border: solid rgb(104, 102, 102);
+  border-radius: 10px;
+}
+.grade-output label {
+  /* border: solid pink; */
+  /* width: 10%; */
+  font-size: 22px;
+  font-weight: 550;
+  background-color: rgba(15, 148, 86, 0.385);
+  border-right: solid rgb(104, 102, 102);
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.grade-output .result {
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+}
+#spnGrade {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 70%;
+  font-size: 20px;
+  color: rgb(55, 54, 54);
+  background-color: rgba(255, 255, 255, 0.709);
+  /* position: fixed; */
+
+}

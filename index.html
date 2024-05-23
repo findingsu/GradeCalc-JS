@@ -12,19 +12,22 @@
       <h1>Grade Calculator</h1>
     </header>
     <div class="grade-calculator-app">
-      <div class="item"><label>Type in your mark (%):</label><br /></div>
-      <div class="item"><input id="txtMarks" /><br /></div>
+      <div class="item"><label>Type in your mark (%):</label></div>
+      <div class="item"><input id="txtMarks" /></div>
       <div class="item">
         <input
           id="btn"
           type="button"
           value="Calculate"
           onclick="calculateGrade()"
-        /><br />
+        />
       </div>
       <div class="grade-output">
         <label class="result">Grade:</label>
         <span class="result" id="spnGrade"></span>
+      </div>
+      <div class="message">
+        <p>Wow... smooth brainer</p>
       </div>
     </div>
     <div><script src="index.js"></script></div>

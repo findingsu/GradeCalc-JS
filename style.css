@@ -77,8 +77,8 @@ body {
   font-weight: 550;
   background-color: rgba(15, 148, 86, 0.385);
   border-right: solid rgb(104, 102, 102);
-  border-bottom-left-radius: 8px;
-  border-top-left-radius: 8px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
 }
 .grade-output .result {
   justify-content: center;
@@ -87,8 +87,8 @@ body {
   width: 100%;
 }
 #spnGrade {
-  border-bottom-right-radius: 8px;
-  border-top-right-radius: 8px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
   font-size: 20px;
   color: rgb(55, 54, 54);
   background-color: rgba(255, 255, 255, 0.709);

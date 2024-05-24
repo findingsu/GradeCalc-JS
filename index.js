@@ -35,6 +35,3 @@ function calculateGrade()
       message.style.color = 'red';
     }
 }
-function logGrade(grade) {
-  console.log(grade)
-}

@@ -17,7 +17,7 @@ function calculateGrade()
     else if((marks>69)&& (marks<79)) {
       grade.innerHTML = "C";
       message.innerHTML = "Mediocre";
-      message.style.color = 'orange';
+      message.style.color = 'darkorange';
     }
     else if((marks>79)&& (marks<89)) {
       grade.innerHTML = "B";

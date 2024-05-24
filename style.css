@@ -8,8 +8,8 @@
 body {
   height: 100vh;
   text-align: center;
-  margin-right: 10%;
-  margin-left: 10%;
+  margin-right: 100px;
+  margin-left: 100px;
   overflow: hidden;
   margin-top: 10%;
 }
@@ -27,7 +27,6 @@ body {
   border: solid rgb(104, 102, 102);
   padding-bottom: 50px;
   background-color: rgba(233, 230, 230, 0.899);
-  display: grid;
 }
 .grade-calculator-app .item {
   font-size: 18px;
@@ -36,10 +35,6 @@ body {
 .item label {
   font-size: 18px;
   padding: 10px;
-}
-.grade-calculator-app label {
-  padding: 15px;
-  font-weight: 500;
 }
 #txtMarks {
   padding: 15px;
@@ -63,58 +58,59 @@ body {
 }
 .grade-output {
   /* border: solid blue; */
-  display: flex;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 25%;
+  margin-right: 25%;
   margin-top: 10px;
-  justify-content: center;
   border: solid rgb(104, 102, 102);
   border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.41);
+  padding: 10px;
+  display: flex;
+  justify-content: center; 
+  margin-bottom: 10px;
 }
 .grade-output label {
   /* border: solid pink; */
   font-size: 22px;
   font-weight: 550;
-  background-color: rgba(15, 148, 86, 0.385);
-  border-right: solid rgb(104, 102, 102);
-  border-bottom-left-radius: 1px;
-  border-top-left-radius: 1px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  /* width: 300px; */
+  margin-right: 20px;
 }
 .grade-output .result {
-  justify-content: center;
   text-align: center;
   align-content: center;
-  width: 100%;
+  /* width: 250px */
 }
 #spnGrade {
-  border-bottom-right-radius: 1px;
-  border-top-right-radius: 1px;
+  /* border-bottom-right-radius: 1px; */
+  /* border-top-right-radius: 1px; */
   font-size: 20px;
   color: rgb(55, 54, 54);
-  background-color: rgba(255, 255, 255, 0.709);
-}
-#message {
-  padding-top: 20px;
 }
 @media (max-width: 500px) {
   body {
     margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
   .title h1 {
     font-size: 25px;
   }
   .grade-output label {
-    /* border: solid pink; */
-    width: 100%;
-    font-size: 17px;
+    font-size: 18px;
   }
     #spnGrade {
-      font-size: 17px;
+      font-size: 18px;
     }
   .btn {
     font-size: 15px;
   }
   .grade-calculator-app .item {
     font-size: 18px;
+  }
+  .grade-output {
+    flex-wrap: wrap;
   }
 }

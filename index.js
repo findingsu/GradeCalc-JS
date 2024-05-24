@@ -30,8 +30,8 @@ function calculateGrade()
       message.style.color = 'green';
     }
      else {
-      grade.innerHTML = "Invalid Marks";
-      message.innerHTML = "Error! Try again";
+      grade.innerHTML = "";
+      message.innerHTML = "Invalid - Please type in a number";
       message.style.color = 'red';
     }
 }

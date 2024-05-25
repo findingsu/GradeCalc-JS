@@ -75,17 +75,13 @@ body {
   font-weight: 550;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
-  /* width: 300px; */
   margin-right: 20px;
 }
 .grade-output .result {
   text-align: center;
   align-content: center;
-  /* width: 250px */
 }
 #spnGrade {
-  /* border-bottom-right-radius: 1px; */
-  /* border-top-right-radius: 1px; */
   font-size: 20px;
   color: rgb(55, 54, 54);
 }

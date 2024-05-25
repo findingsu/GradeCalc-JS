@@ -4,13 +4,13 @@
   padding: 0px;
   font-family: Arial, sans-serif;
   letter-spacing: 1px;
+  overflow: hidden;
 }
 body {
   height: 100vh;
   text-align: center;
   margin-right: 100px;
   margin-left: 100px;
-  overflow: hidden;
   margin-top: 10%;
 }
 .title {

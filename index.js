@@ -26,7 +26,7 @@ function calculateGrade()
     }
     else if((marks>89)&& (marks<101)) {
       grade.innerHTML = "A";
-      message.innerHTML = "Well done!";
+      message.innerHTML = "Well done! I hope you enjoy the academic validation";
       message.style.color = 'green';
     }
      else {
